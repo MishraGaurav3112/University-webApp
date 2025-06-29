@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unversity Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <!-- logo -->
+        <a href=""><img src="./eduford_img/logo.png" alt=""></a>
+        <!-- nav links -->
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="http://127.0.0.1:5501/index2.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+                <li><a href="http://127.0.0.1:5501/courses.html">Course</a></li>
+                <li><a href="http://127.0.0.1:5501/blog.html">Blog</a></li>
+                <li><a href="http://127.0.0.1:5500/courses.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+       <!-- content main sectiom banner -->
+       <h1>Contact Us</h1>
+
+
+    </section>
+<!-- Contact us -->
+ <section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1376.7787810541636!2d72.87101381534215!3d19.232407846047558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0c8e3f57ba5%3A0x625efd467dfb89ff!2sSai%20baba%20temple%2CBorivali%20east!5e0!3m2!1sen!2sin!4v1738114974529!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+ </section>
+
+ <section class="contact-us">
+    <div class="contact-col">
+        <div>
+            <i class="fa-solid fa-house"></i>
+            <span>XYZ Rad,ABC Building</span>
+            <p>Banglore, Karnatka, IN</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 3909478574</span>
+            <p>Monday To Saturday, 10AM t0 7PM</p>
+        </div>
+        <div>
+            <i class="fa-regular fa-envelope"></i>
+            <span>slrtce@2025.com</span>
+            <p>Email us, For ANy Query</p>
+        </div>
+    </div>
+
+    <div class="contact-col">
+
+        <form action="">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email Address" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea rows="8" placeholder="Measage" required></textarea>
+            <Button type="submit" class="banner-btn about-us-btn" >Send Measseage</Button>
+        </form>
+    </div>
+    
+ </section>
+
+
+
+
+
+ 
+
+
+
+
+
+  <!-- Footer  -->
+
+
+  <section class="footer">
+    <h2>About US</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima eligendi inventore fugit <br> libero assumenda, amet provident ex. Dicta voluptatibus incidunt ea maiores?</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+<!-- toogle menu bar -->
+    <script>
+        var navLinks =document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

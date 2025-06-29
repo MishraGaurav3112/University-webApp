@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unversity Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <!-- logo -->
+        <a href=""><img src="./eduford_img/logo.png" alt=""></a>
+        <!-- nav links -->
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="http://127.0.0.1:5501/index2.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="http://127.0.0.1:5501/courses.html">Course</a></li>
+                <li><a href="http://127.0.0.1:5501/blog.html">Blog</a></li>
+                <li><a href="http://127.0.0.1:5501/contactUs.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+       <!-- content main sectiom banner -->
+       <h1>About Us</h1>
+
+
+    </section>
+
+
+  <!-- bout US -->
+
+  <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Fastest Growing University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ratione a amet est totam delectus adipisci voluptatum eos, dignissimos quas dolores accusantium obcaecati debitis, sunt ea modi explicabo natus praesentium non eaque aspernatur maxime vitae fugit. Esse, excepturi quisquam fugiat minus ea recusandae sed mollitia?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ad, cum dignissimos error asperiores sunt optio nostrum accusamus fugit voluptas eligendi facilis.</p>
+
+            <a href="" class="banner-btn about-us-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="./eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Footer  -->
+
+
+  <section class="footer">
+    <h2>About US</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima eligendi inventore fugit <br> libero assumenda, amet provident ex. Dicta voluptatibus incidunt ea maiores?</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+<!-- toogle menu bar -->
+    <script>
+        var navLinks =document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

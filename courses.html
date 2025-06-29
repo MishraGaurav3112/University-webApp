@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unversity Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <!-- logo -->
+        <a href=""><img src="./eduford_img/logo.png" alt=""></a>
+        <!-- nav links -->
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="http://127.0.0.1:5501/index2.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="http://127.0.0.1:5501/blog.html">Blog</a></li>
+                <li><a href="hhttp://127.0.0.1:5501/contactUs.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+       <!-- content main sectiom banner -->
+       <h1>Our Courses</h1>
+
+
+    </section>
+
+  <!-- COurse section -->
+
+
+  <section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda perspiciatis unde repellendus sint.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita praesentium, assumenda eum rerum nesciunt tempora, in aut voluptates, impedit nemo ipsa?</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita praesentium, assumenda eum rerum nesciunt tempora, in aut voluptates, impedit nemo ipsa?</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita praesentium, assumenda eum rerum nesciunt tempora, in aut voluptates, impedit nemo ipsa?</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- facilities -->
+ 
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum alias voluptates, enim animi dolor esse repudiandae dolorem numquam blanditiis! Maiores, saepe odit!</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="./eduford_img/library.png" alt="">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, molestiae repellendus hic assumenda eveniet dolores alias, id odit repellat suscipit tempora accusantium!</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="./eduford_img/basketball.png" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, molestiae repellendus hic assumenda eveniet dolores alias, id odit repellat suscipit tempora accusantium!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="./eduford_img/cafeteria.png" alt="">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, molestiae repellendus hic assumenda eveniet dolores alias, id odit repellat suscipit tempora accusantium!</p>
+        </div>
+    </div>
+ </section>
+
+
+
+ 
+
+
+
+
+
+  <!-- Footer  -->
+
+
+  <section class="footer">
+    <h2>About US</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima eligendi inventore fugit <br> libero assumenda, amet provident ex. Dicta voluptatibus incidunt ea maiores?</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+  </section>
+<!-- toogle menu bar -->
+    <script>
+        var navLinks =document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
